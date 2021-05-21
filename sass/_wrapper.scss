@@ -1,0 +1,77 @@
+html {
+    height: 100vh;
+    /* max-height: 600px; */
+    width: 100vw;
+    background-image:   
+     
+      
+      url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+      url('https://pro2-bar-s3-cdn-cf3.myportfolio.com/ad2af3896e339ee0429fa841de637728/ec50c674-f3be-494c-beb2-fa11c8b92baf_rw_1920.jpg?h=bedbce63165db6af0e5321018eec95f5');
+      
+    background-repeat: repeat-x;
+    background-position: 
+      
+      
+      0px 0%,
+      0 100%;
+      
+    background-size: 
+      
+      
+      1000px 400px,
+      2000px;
+      
+    animation: 50s para infinite linear;
+}
+  
+  @keyframes para {
+    100% {
+      background-position: 
+        
+        
+        500px 0%,
+        0px 100%;
+        
+      }
+    }
+
+hr {
+    height: 5px;
+    width: 70px;
+    text-align: center;
+    position: relative;
+    background: #0505055b;
+    margin: 5px auto;
+    border: 0;
+}
+.hr--white {
+    background: rgba(255, 255, 255, 0.849);
+}
+.wpapper {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    background-color: red;
+}
+
+body {
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.loader {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: +3;
+    align-items: center;
+    justify-content: center;
+}
+
+.animation {
+    opacity: 0%;
+}
